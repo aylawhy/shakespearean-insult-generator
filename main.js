@@ -28,4 +28,4 @@ getInsultButton.onclick = function newInsult() {
   
   // Display final result
   getInsultButton.textContent = `${adjectiveList1[indexNumber1]} ${adjectiveList2[indexNumber2]} ${nounList[indexNumber3]}!`;
-}};
+}});
