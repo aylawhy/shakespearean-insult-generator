@@ -1,111 +1,65 @@
 body {
-  font-family: 'Playfair Display';
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-
+  background-color : black;
 }
 
-.center-div {
-  width: 100%;
-  display: grid;
-  justify-content: center;
- 
+hr {
+  height : 10px;
+  border : solid;
+  border-color : white;
+  border-left : black;
+  border-right : black;
 }
-
-.outer-nav {
-  width: 100%;
-  display: grid;
-  justify-content: center;
-  margin-top: 10%;
-  margin-bottom: 5%;
-}
-
-
-span {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.outer {
+.container {
+  display : flex;
+  justify-content : center;
+  width : 100%;
+  height : 200px;
+  display : flex;
+  font-family : Tangerine;
+  margin : auto;
   
-    display: grid;
-    margin-bottom: 10%;
-    flex-wrap: wrap;
-    flex-direction: column;
-    
 }
 
-.inner {
-  display: flex;
-  justify-content: center;
+.container h1 {
+  font-size : 100px;
+  align-self : center;
+  text-align : center;
+  color : white;
+  padding : 50px;
+  background-color : black;
+  width : 100%;
+  margin : auto;
+  border : solid;
+  border-color : black;
+  
 }
 
-#lose {
-  display: grid;
-  justify-content: center;
-  font-size: 20px;
-
+.buttonContainer {
+  display : flex;
+  justify-content : center;
+  border : solid;
+  border-width : 100px;
+  border-color : white;
+  margin : auto;
+  background-color: white;
+  padding : 20px;
+  cursor : pointer;
+  
 }
 
-.arena {
-
-    height: 200px;
-    width: 200px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
-    border-style: ridge;
-    border-color: red;
-    margin-top: 10%;
-    margin-bottom: 30%;
+.buttonContainer h2 {
+  font-size : 70px;
+  color : black;
+  transform : translateY(-1.3em);
+  padding : 20px;
 }
 
-.arena div {
-    width: 20px;
-    height: 20px;
-}
-
-.snake {
-    background-color: greenyellow;
-    border-radius: 50%;
-    border-color: green;
-}
-
-.apple {
-    background-color: red;
-    border-radius: 50%;
-}
-
-
-
-.get-eating {
-
-    display: flex;
-    width: 100px;
-    height: 75px;
-    flex-wrap: wrap;
-    font-family: 'Playfair Display';
-    font-size: 20px;
-    justify-content: center;
-    cursor: pointer;
-    padding-bottom: 20px;
-    background-color: white;
-    border: solid;
-    border-radius: 25%;
-    
-
-}
-
-.score {
-    padding-top: 25px;
-    font-size: 25px;
-    font-family: 'Playfair Display';
-}
-
-#mini-food-list {
-  display: flex;
-  justify-content: column;
+.buttonContainer .get {
+  font-family : Tangerine;
+  background-color : white;
+  width : 50%;
+  height : 100px;
+  font-size : 60px;
+  border : none;
+  cursor : pointer;
 }
